@@ -150,3 +150,206 @@
 // }
 
 // console.log(sum);
+
+
+// --------------------
+// Q1: Stop at first Multiple of 7
+
+// Write a loop from 1 to 100 that:
+// -----Prints each number 
+// -----Stops completely when it finds the first number divisible by 7 
+
+
+
+// for (i = 1; i<=100; i++){
+//     console.log(i); 
+//     if(i %7 === 0){
+//         break;
+//     }
+    
+    
+// }
+
+
+
+// Q2: Skips Multiple of 3
+
+// Write a loop from 1 to 20 that:
+// -------- Skips number divisible by 3
+// -------- Prints all other 
+
+// Expeted output :
+// 1 2 4 5 7 8 10 11 ... (no 3, 6, 9, etc)
+
+
+
+// for (i=1; i<=20; i++){
+   
+//     if(i%3 === 0) continue; 
+//     console.log(i);   
+
+// }
+
+
+// Q3: Print First 5 Odd Numbers Only
+
+// Write a loop from 1 to 100 that:
+
+// Prints only 5 odd numbers
+
+// Then stops the loop
+
+// Use both if, continue, and a counter + 
+
+// break
+
+// Expected output:
+
+// // 13579
+
+// let count = 0;
+
+// for (i=1; i <=100;i++){
+//     if(i%2===1 ){
+//        count ++;
+//        console.log(i);
+       
+        
+//     }
+//     if(count === 5){
+//         break
+//     }
+    
+
+
+// }
+
+
+// 🔹 Q1: Stop at first Multiple of 4
+
+// Write a loop from 1 to 50
+
+// Print each number
+
+// Stop completely when the first number divisible by 4 is found
+
+// for (i = 1; i<=50; i++){
+//     console.log(i);
+//     if(i %4 === 0){
+//         break
+//     }
+    
+// }
+ 
+
+
+// 🔹 Q2: Skip Multiples of 2
+
+// Write a loop from 1 to 30
+
+// Skip numbers divisible by 2
+
+// Print all other numbers
+
+// for (i = 1; i<=30;i++){
+//     if(i%2 === 0){
+//         continue
+//     }
+//     console.log(i);
+
+// }
+
+
+// 🔹 Q3: Print First 7 Even Numbers
+
+// Write a loop from 1 to 100
+
+// Print only the first 7 even numbers
+
+// Use if, a counter, and break
+
+
+// count = 0;
+
+// for(i = 1; i<=100; i++){
+//     if(i%2 === 0){
+//         count ++ ;
+        
+//     }
+//     if(i%2 === 1){
+//         continue
+//     }
+//     console.log(i);
+    
+//     if(count === 7){
+//         break
+//     }
+    
+    
+
+// }
+
+
+// 🔹 Q4: Print Numbers Divisible by 3 but Skip 9
+
+// Loop from 1 to 30
+
+// Print numbers divisible by 3
+
+// Skip the number 9 using continue
+
+// for (i=1;i<=30;i++){
+//  if(i === 9){
+//     continue
+//  }
+//  else if(i%3 === 0 ){
+//     console.log(i);
+    
+
+//  }
+
+ 
+// }
+
+// Q5: Count Numbers Divisible by 5
+
+// Loop from 1 to 100
+
+// Count how many numbers are divisible by 5
+
+// Print only the count at the end
+
+// count = 0;
+// for (i = 1;i<=100;i++){
+   
+//     if (i%5 === 0){
+//         count ++;
+//     }
+    
+// }
+
+// console.log("Total Count = " + count);
+
+
+// Q6: Stop When Sum Exceeds 50
+
+// Loop from 1 to 100
+
+// Keep adding numbers to a sum variable
+
+// Stop the loop using break when sum becomes greater than 50
+
+// Print the sum
+
+// sum =0;
+// for (i=1;i<=100;i++){
+//     console.log(i);
+//     sum = sum  + i
+//     if (sum >=50){
+//         break
+       
+//     }
+    
+// }
+//  console.log(`${sum} Your Reached the limit`);
+        
