@@ -352,4 +352,85 @@
     
 // }
 //  console.log(`${sum} Your Reached the limit`);
+
+// ------------------------------------------
+// Date = 31/10/2025 (FUNCTION QUESTION'S)
+
+
+
+// ✅ Function Declaration (normal function)
+
+// Write a function greet() that prints "Hello JavaScript!".
+
+
+
+// function greet(){
+//     console.log("Hello JavaScript!");
+    
+// }
+
+// greet();
+
+
+// Q:2 - Write a function add(a, b) that returns the sum of two numbers.
+
+// function add (a, b){
+//     console.log(a+b);
+    
+// }
+// add(100 , 100);
+
+
+
+// Q:3 Write a function square(num) that returns the square of a number.
+
+
+// function square (x1){
+//     console.log(x1 ** 2);
+    
+// }
+// square(100)
+
+
+
+// Q:4 Write a function isEven(num) that returns true if a number is even, and false otherwise.
+
+// function  isEven(num) {
+//     if (num%2 === 0) {
+//        return "It's is Even";
         
+//     }
+//     else{
+//         return "It's is Odd";
+        
+//     }
+
+// }
+
+// console.log(isEven(20));
+
+
+
+
+// Q:5 Write a function max(a, b) that returns the greater of two numbers.
+
+// function max(a,b){
+//     if(a > b){
+//         return `${a} is greater than ${b} so a is greater then b`
+//     }
+//     else{
+//         return `${b} is greater than ${a} so b is greater then a`
+//     }
+// }
+
+// console.log(max(300,100));
+
+                    // OR
+
+// function max(a, b) {
+//     return a > b ? a : b;
+// }
+
+// console.log(max(300, 100)); // Output: 300
+
+
